@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app/screens/destination_screen.dart';
 import 'package:travel_app/screens/home_screen.dart';
 import 'package:travel_app/screens/loading_screen.dart';
 
@@ -12,7 +13,8 @@ class TravelApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const HomeScreen(),
-        'loading': (context) => const LoadingScreen()
+        'loading': (context) => const LoadingScreen(),
+        // 'destination_screen': (context) => const DestinationScreen(destination: null,)
       },
       theme: ThemeData(
         accentColor: const Color(0xFFccebff),
