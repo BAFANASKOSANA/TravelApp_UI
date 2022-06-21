@@ -114,7 +114,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                                         style: TextStyle(
                                             color: Colors.grey,
                                             fontSize: 12,
-                                            fontWeight: FontWeight.w400),
+                                            fontWeight: FontWeight.w500),
                                       )
                                     ],
                                   )
@@ -123,7 +123,10 @@ class _DestinationScreenState extends State<DestinationScreen> {
                               const SizedBox(
                                 height: 5.0,
                               ),
-                              Text(activity.type),
+                              Text(activity.type, style: const TextStyle(
+                                fontWeight: FontWeight.w500,
+                                color: Colors.grey,
+                              ),),
                               const SizedBox(height: 5.0,),
                               _buildStars(activity.rating),
                               const SizedBox(height: 5.0,),
