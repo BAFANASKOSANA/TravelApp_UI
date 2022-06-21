@@ -23,25 +23,29 @@ List<Activities> activities = [
       price: "\$30",
       type: "Sightseeing",
       rating: 5,
-      startTimes: ["9:00 am", "11:00am"]),
+      startTimes: ["9:00 am", "11:00am"],
+      activityImg: "assets/images/activities_first.jpg"),
   Activities(
       activityPlace: "St.Marks Basilica",
       price: "\$30",
       type: "Sightseeing",
       rating: 3,
-      startTimes: ["9:00 am", "11:00am"]),
+      startTimes: ["9:00 am", "11:00am"],
+      activityImg: "assets/images/activities_second.jpg"),
   Activities(
       activityPlace: "St.Marks Basilica",
       price: "\$30",
       type: "Sightseeing",
       rating: 4,
-      startTimes: ["9:00 am", "11:00am"]),
+      startTimes: ["9:00 am", "11:00am"],
+      activityImg: "assets/images/activities_first.jpg"),
   Activities(
       activityPlace: "St.Marks Basilica",
       price: "\$30",
       type: "Sightseeing",
       rating: 2,
-      startTimes: ["9:00 am", "11:00am"]),
+      startTimes: ["9:00 am", "11:00am"],
+      activityImg: "assets/images/activities_second.jpg"),
 ];
 
 List<Destination> destinations = [
@@ -74,10 +78,11 @@ List<Destination> destinations = [
       imgUrl: "assets/images/stone_blades_madagascar.jpg",
       countryImgUrl: "assets/images/france.jpg"),
   Destination(
-      city: "Paris",
-      country: "South Africa",
-      activities: activities,
-      description: "Lorem Ipsum dolo set amet Lorem Ipsum dolo set amet Lorem",
-      imgUrl: "assets/images/SA_KrugerNationalPark.jpg",
-      countryImgUrl: "assets/images/southafrica.jpg",)
+    city: "Paris",
+    country: "South Africa",
+    activities: activities,
+    description: "Lorem Ipsum dolo set amet Lorem Ipsum dolo set amet Lorem",
+    imgUrl: "assets/images/SA_KrugerNationalPark.jpg",
+    countryImgUrl: "assets/images/southafrica.jpg",
+  )
 ];
